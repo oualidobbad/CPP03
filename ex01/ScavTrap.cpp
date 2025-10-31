@@ -3,7 +3,6 @@
 ScavTrap::ScavTrap():ClapTrap()
 {
 	std::cout << "ScavTrap constructor called"<<std::endl;
-	name = nullptr;
 	hitPoint = 100;
 	energyPoint = 50;
 	attackDamage = 20;

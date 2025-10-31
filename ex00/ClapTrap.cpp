@@ -1,14 +1,15 @@
 #include "ClapTrap.hpp"
 
 ClapTrap::ClapTrap(){
-	name = nullptr;
+	name = "Default";
 	hitPoint = 10;
 	energyPoint = 10;
 	attackDamage = 0;
 	std::cout << "default constructor called" << std::endl;
 }
 
-ClapTrap::ClapTrap(std::string name){
+ClapTrap::ClapTrap(std::string name)
+{
 	this->name = name;
 	hitPoint = 10;
 	energyPoint = 10;
@@ -46,7 +47,7 @@ void ClapTrap::attack(const std::string& target)
 		return ;
 	}
 	energyPoint--;
-	std::cout << name + " attack " << target << ",  causing " << attackDamage <<  " point Damages" << std::endl;
+	std::cout << name + " attack " << target << ", causing " << attackDamage <<  " point Damages" << std::endl;
 }
 
 void ClapTrap::takeDamage(unsigned int amount)
