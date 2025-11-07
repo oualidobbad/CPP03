@@ -1,10 +1,12 @@
-NAME = claptrap
+NAME = fragTrap
 SRC = $(wildcard *.cpp)
 OBJ = $(SRC:.cpp=.o)
 CPP = c++
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
-all: $(OBJ)
+all: $(NAME)
+
+$(NAME): $(OBJ)
 	$(CPP) $(CPPFLAGS) -o $(NAME) $(OBJ)
 
 %.o: %.cpp
