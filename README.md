@@ -1,22 +1,13 @@
-# CPP03
+    # CPP03
 
-## Description
-C++ inheritance exercises featuring the ClapTrap family.
+    C++ Module 03: inheritance with the ClapTrap/ScavTrap/FragTrap hierarchy.
 
-## Features
-- Base/derived class behaviors and method overrides.
+    ## Topics
+    - Inheritance, method overriding, and resource sharing across derived classes.
+    - Behavior demos: attack, guard, special actions.
 
-## Technologies Used
-- C++98, Makefile.
+    ## Build & Run
+    - `make`; run the binary to observe class interactions.
 
-## Installation
-- Run `make` within the module.
-
-## Usage
-- Run the produced binary to observe ClapTrap actions.
-
-## Example
-- Test attack/repair actions on derived traps.
-
-## Author
-- Oualid Obbad (@oualidobbad)
+    ## Author
+    Oualid Obbad (@oualidobbad)
